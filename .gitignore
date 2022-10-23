@@ -1,0 +1,10 @@
+# VSCode
+.vscode/settings.json
+
+# Python
+__pycache__/
+
+# PyCharm
+out/
+.idea/
+*.iml
