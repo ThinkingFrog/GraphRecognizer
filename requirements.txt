@@ -4,3 +4,4 @@ isort~=5.10.1
 matplotlib~=3.6.1
 networkx~=2.8.7
 pre-commit~=2.20.0
+pygraphviz~=1.10
