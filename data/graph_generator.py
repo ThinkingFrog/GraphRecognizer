@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 import networkx as nx
 from numpy.random import randint
 
-root_data_dir = Path(__file__).parent
-
 
 def save_graph(graph_generator: Callable[[int], nx.Graph], nodes: int, dirname: str):
+    root_data_dir = Path(__file__).parent
+
     data_dir = root_data_dir / dirname
     data_dir.mkdir(parents=True, exist_ok=True)
 
